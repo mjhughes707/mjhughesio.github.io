@@ -2,6 +2,7 @@
   "name": "mjhughesio.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://matthewjhughes.com",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",

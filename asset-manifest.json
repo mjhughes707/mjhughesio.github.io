@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.43efbfff.chunk.css",
+    "main.js": "/static/js/main.51d2b55f.chunk.js",
+    "main.js.map": "/static/js/main.51d2b55f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.429f86b1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.429f86b1.js.map",
+    "static/js/2.17127730.chunk.js": "/static/js/2.17127730.chunk.js",
+    "static/js/2.17127730.chunk.js.map": "/static/js/2.17127730.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e3b48a94f2172dc690dbe013ddf5d9db.js": "/precache-manifest.e3b48a94f2172dc690dbe013ddf5d9db.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.43efbfff.chunk.css.map": "/static/css/main.43efbfff.chunk.css.map",
+    "static/js/2.17127730.chunk.js.LICENSE": "/static/js/2.17127730.chunk.js.LICENSE",
+    "static/media/HP-example.png": "/static/media/HP-example.8ccbc245.png",
+    "static/media/bouncing-cube.png": "/static/media/bouncing-cube.26eab9f8.png",
+    "static/media/coming-soon.png": "/static/media/coming-soon.6cd1d534.png",
+    "static/media/foodcartcity.png": "/static/media/foodcartcity.40c57f34.png",
+    "static/media/make-a-meowm.png": "/static/media/make-a-meowm.c28b0106.png",
+    "static/media/matt-ngorongoro-sq.png": "/static/media/matt-ngorongoro-sq.f53677d8.png",
+    "static/media/ppow.png": "/static/media/ppow.dd370128.png",
+    "static/media/style.css": "/static/media/trees.7d7bcb14.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.429f86b1.js",
+    "static/js/2.17127730.chunk.js",
+    "static/css/main.43efbfff.chunk.css",
+    "static/js/main.51d2b55f.chunk.js"
+  ]
+}
