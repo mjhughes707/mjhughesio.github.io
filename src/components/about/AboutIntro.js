@@ -3,10 +3,10 @@ import React from "react"
 function AboutIntro() {
   return (
     <div className="item-about-intro">
-      <h4>Matthew J. Hughes</h4>
-      <p>Web Developer based in Portland, OR.</p>
-      <p>Veteran of the U.S. Air Force, U.K. dual citizen, explorer of forty-one countries and counting.</p>
-      <p>Constantly curious, addicted to knowledge. A lifelong learner, always on the hunt for new ways to improve each day. Passionate about the process, from idea to creation to launch.</p>
+      <h4>Hello, I'm Matt!</h4>
+      <p>A web developer based out of Portland, Oregon.</p>
+      <p>I'm also a veteran of the U.S. Air Force, a dual citizen with the United Kingdom, an active hiker and an explorer of forty-one countries and counting.</p>
+      <p>I love to learn and, to this day, have yet to encounter a language or framework that I have not found to be both exciting and enthralling. It is what I love the most about programming. It’s limitless!</p>
     </div>
   )
 }

@@ -839,10 +839,15 @@ textarea {
   }
 
   #about a {
-    margin-top: -39px;
+    margin-top: -40px;
     width: 37.5%;
     padding: 12px;
     font-size: 14px;
+    background-image: linear-gradient(to top left, rgba(191, 181, 132, 0.4),  rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(191, 181, 132, 0.4));
+  }
+
+  #about a:hover {
+    background-image: linear-gradient(to bottom right, rgba(115, 162, 191, .5),  rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4), rgba(115, 162, 191, .5));
   }
 
 
