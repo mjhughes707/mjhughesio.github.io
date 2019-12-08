@@ -12,7 +12,9 @@ function Main() {
       <Projects />
       <Blogs />
       <Contact />
-      <a href="#home" className="back-to-top"><i className="fas fa-angle-double-up"></i></a>
+      <a href="#home" className="back-to-top">
+        <i className="fas fa-angle-double-up"></i>
+      </a>
     </main>
   )
 }

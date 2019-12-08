@@ -115,6 +115,10 @@ h1:last-child {
   width: 100%;
 }
 
+.nav-flex #myLinks {
+  display: none;
+}
+
 nav ul {
   display: flex;
   justify-content: flex-start;
@@ -807,12 +811,12 @@ textarea {
 
   .about-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto 200px;
+    grid-template-rows: auto auto auto 65px;
     grid-template-areas:
       "header header header header"
-      "intro intro . ."
+      "intro intro intro ."
       "hobbies hobbies skills skills"
-      ". . resume resume";
+      "resume resume . .";
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -824,6 +828,23 @@ textarea {
   .item-about-skills h3, .item-about-hobbies h3  {
     margin-top: 60px;
   }
+
+  .item-about-hobbies {
+    padding: 0;
+  }
+
+  .item-about-resume {
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  #about a {
+    margin-top: -39px;
+    width: 37.5%;
+    padding: 12px;
+    font-size: 14px;
+  }
+
 
   /***** BLOGS *****/
 
@@ -879,6 +900,7 @@ textarea {
   header img {
     height: 216.25px;
   }
+
 
   /***** BLOGS *****/
 

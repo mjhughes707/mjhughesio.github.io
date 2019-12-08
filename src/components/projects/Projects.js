@@ -5,7 +5,7 @@ import Project from "./Project"
 import BouncingCube from "../../img/bouncing-cube.png"
 import FoodCartCity from "../../img/foodcartcity.png"
 import MakeAMeowm from "../../img/make-a-meowm.png"
-import HPExample from "../../img/HP-example.png"
+import HPTrivia from "../../img/hptrivia.png"
 
 function Projects() {
   return (
@@ -39,10 +39,10 @@ function Projects() {
         />
         <Project
           id="project4"
-          image={HPExample}
+          image={HPTrivia}
           alt="Preview of the Harry Potter Trivia project"
           overlay="project-overlay-b"
-          name="Harry Potter Trivia"
+          name="Harry Potter Trivia (Coming Soon)"
           link="#"
         />
       </div>
