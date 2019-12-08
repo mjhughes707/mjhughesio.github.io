@@ -2,7 +2,7 @@ import React from "react"
 
 function Form() {
   return (
-      <form action="http://webhook.site/dddd4d66-814c-44b5-b0e7-1bd04815bb40" method="post">
+      <form action="http://webhook.site/e29ebfec-9ba2-4af7-bd95-9351adf4ace6" method="post">
         <div className="form-field">
           <input type="text" name="name" id="name" placeholder="Name" minLength="2" title="Requires at least two characters" required />
         </div>

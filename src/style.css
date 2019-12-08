@@ -836,9 +836,9 @@ textarea {
   }
 
   #about a {
-    margin-top: -40px;
+    margin-top: -36px;
     width: 37.5%;
-    padding: 12px;
+    padding: 12.5px;
     font-size: 14px;
     background-image: linear-gradient(to top left, rgba(191, 181, 132, 0.4),  rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(191, 181, 132, 0.4));
   }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a323818fd39aecd34caf040ad2514e8",
+    "revision": "985ebff642902aa95b2b35a74e27f80b",
     "url": "/index.html"
   },
   {
-    "revision": "bbdf4be4d57c121b9078",
-    "url": "/static/css/main.46a85746.chunk.css"
+    "revision": "cb245c5e6710ba31b249",
+    "url": "/static/css/main.37552912.chunk.css"
   },
   {
     "revision": "e633a8a6ddb65593116b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.16e2d3e2.chunk.js.LICENSE"
   },
   {
-    "revision": "bbdf4be4d57c121b9078",
-    "url": "/static/js/main.16783d66.chunk.js"
+    "revision": "cb245c5e6710ba31b249",
+    "url": "/static/js/main.1fa4d165.chunk.js"
   },
   {
     "revision": "48f2e0fdf62bcb26a288",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/coming-soon.6cd1d534.png"
   },
   {
-    "revision": "40c57f34ee17713b6e622c1f26df114e",
-    "url": "/static/media/foodcartcity.40c57f34.png"
+    "revision": "506c5f0d3d47cdff801a554ad6c374e5",
+    "url": "/static/media/foodcartcity.506c5f0d.png"
   },
   {
     "revision": "f63d1ce1c06347517897450db64f1e51",
