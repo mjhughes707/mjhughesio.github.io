@@ -362,12 +362,9 @@ nav a:hover {
   transition: .5s ease;
 }
 
-.project-overlay-a {
-  background: linear-gradient(to right, rgba(255, 255, 255), rgba(255, 255, 255));
-}
-
-.project-overlay-b {
-  background: linear-gradient(to right, rgba(255, 255, 255), rgba(115, 162, 191));
+.project-overlay-a, .project-overlay-b {
+  background: rgba(255, 255, 255, .85);
+  border: 1.5px solid #8C544F;
 }
 
 .project-container:hover .project-overlay-a, .project-container:hover .project-overlay-b {
@@ -386,7 +383,7 @@ nav a:hover {
 }
 
 .project-text h5 {
-  font-size: 24px;
+  font-size: 26px;
   color: #1B242F;
   font-weight: 500;
   margin: 0 0 15% 0;
@@ -397,7 +394,7 @@ nav a:hover {
   text-decoration: none;
   color: #1B242F;
   text-transform: uppercase;
-  border: 1px solid #8C544F;
+  border: 1.5px solid #8C544F;
   padding: 10px 50px;
   transition: 0.3s ease-in-out;
 }
@@ -847,7 +844,7 @@ textarea {
   }
 
   #about a:hover {
-    background-image: linear-gradient(to bottom right, rgba(115, 162, 191, .5),  rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4), rgba(115, 162, 191, .5));
+    background: linear-gradient(to top left, rgba(140, 84, 79, 0.5),  rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(140, 84, 79, 0.5));
   }
 
 

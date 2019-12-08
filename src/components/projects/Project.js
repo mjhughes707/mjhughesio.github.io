@@ -2,7 +2,7 @@ import React from "react"
 
 function Project(props) {
   return (
-    <div id={props.id} className="item-project project-container">
+    <div id={props.id} className="project-container">
       <img
         src={props.image}
         alt={props.alt}
@@ -11,7 +11,7 @@ function Project(props) {
       <div className={props.overlay}>
         <div className="project-text">
           <h5>{props.name}</h5>
-          <a href={props.link}>Learn More</a>
+          <a href={props.link}>View Live</a>
         </div>
       </div>
     </div>
