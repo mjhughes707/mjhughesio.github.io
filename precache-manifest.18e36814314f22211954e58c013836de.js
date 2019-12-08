@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ca75259a371278b79912e9ffb2e485b",
+    "revision": "63d332e87f8b4777731b3f756f6304ec",
     "url": "/index.html"
   },
   {
-    "revision": "e3be2f41f89965617350",
-    "url": "/static/css/main.43efbfff.chunk.css"
+    "revision": "bafd9f6b64a3858c6b3e",
+    "url": "/static/css/main.cd2ddd72.chunk.css"
   },
   {
-    "revision": "dc9bb93882de3b37d280",
-    "url": "/static/js/2.17127730.chunk.js"
+    "revision": "e633a8a6ddb65593116b",
+    "url": "/static/js/2.16e2d3e2.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/static/js/2.17127730.chunk.js.LICENSE"
+    "url": "/static/js/2.16e2d3e2.chunk.js.LICENSE"
   },
   {
-    "revision": "e3be2f41f89965617350",
-    "url": "/static/js/main.51d2b55f.chunk.js"
+    "revision": "bafd9f6b64a3858c6b3e",
+    "url": "/static/js/main.cb5b4089.chunk.js"
   },
   {
     "revision": "48f2e0fdf62bcb26a288",
     "url": "/static/js/runtime-main.429f86b1.js"
-  },
-  {
-    "revision": "8ccbc245db33c31947cb836c53c5c5d7",
-    "url": "/static/media/HP-example.8ccbc245.png"
   },
   {
     "revision": "26eab9f8393361ddfe93b16dc27ebd57",
@@ -38,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "40c57f34ee17713b6e622c1f26df114e",
     "url": "/static/media/foodcartcity.40c57f34.png"
+  },
+  {
+    "revision": "cb5131b8751ebd3f914dcc73feb98a01",
+    "url": "/static/media/hptrivia.cb5131b8.png"
   },
   {
     "revision": "c28b0106c6155032d16f6083e49b634f",
