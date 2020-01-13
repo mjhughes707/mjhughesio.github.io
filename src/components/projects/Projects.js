@@ -1,11 +1,11 @@
-import React from "react"
+import React from "react";
 
-import Project from "./Project"
+import Project from "./Project";
 
-import BouncingCube from "../../img/bouncing-cube.png"
-import FoodCartCity from "../../img/foodcartcity.png"
-import MakeAMeowm from "../../img/make-a-meowm.png"
-import HPTrivia from "../../img/hptrivia.png"
+import BouncingCube from "../../img/bouncing-cube.png";
+import FoodCartCity from "../../img/foodcartcity.png";
+import MakeAMeowm from "../../img/make-a-meowm.png";
+import Stocker from "../../img/stocker.png";
 
 function Projects() {
   return (
@@ -39,16 +39,15 @@ function Projects() {
         />
         <Project
           id="project4"
-          image={HPTrivia}
-          alt="Preview of the Harry Potter Trivia project"
+          image={Stocker}
+          alt="Preview of the Stocker project"
           overlay="project-overlay-b"
-          name="Harry Potter Trivia (Coming Soon)"
-          link="#"
+          name="Stocker"
+          link="https://matthewjhughes.com/stocker"
         />
       </div>
     </div>
-  )
+  );
 }
 
-
-export default Projects
+export default Projects;
