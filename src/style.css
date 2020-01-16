@@ -2,11 +2,12 @@
 /***** FULL PAGE *****/
 /*********************/
 
-
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -16,11 +17,9 @@ html {
   clear: both;
 } */
 
-
 /****************/
 /***** BODY *****/
 /****************/
-
 
 .body-grid {
   display: grid;
@@ -29,15 +28,19 @@ html {
   grid-template-areas:
     "header"
     "main"
-    "footer"
+    "footer";
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 0;
 }
 
-h1, h2, h3, h5, h6 {
+h1,
+h2,
+h3,
+h5,
+h6 {
   color: #444649;
 }
 
@@ -49,18 +52,16 @@ h2 {
 }
 
 h4 {
-  color: #8C544F;
+  color: #8c544f;
 }
 
 p {
   color: #616161;
 }
 
-
 /******************/
 /***** HEADER *****/
 /******************/
-
 
 .item-header {
   grid-area: header;
@@ -68,7 +69,13 @@ p {
 
 .canvas-back {
   height: 100vh;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4), rgba(191, 181, 132, 0.4)), url("../src/img/trees.svg");
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4),
+      rgba(191, 181, 132, 0.4)
+    ),
+    url("../src/img/trees.svg");
   background-repeat: repeat-x;
   background-position: center bottom;
   background-size: 50%;
@@ -89,7 +96,7 @@ h1 {
 }
 
 .header-name {
-  color: #8C544F;
+  color: #8c544f;
 }
 
 header img {
@@ -141,8 +148,8 @@ nav a {
 }
 
 nav a:hover {
-  color: #8C544F;
-  text-shadow: .2px .2px;
+  color: #8c544f;
+  text-shadow: 0.2px 0.2px;
 }
 
 .nav-contacts {
@@ -153,15 +160,17 @@ nav a:hover {
   display: none;
 }
 
-.nav-icons a, .nav-icons a:visited, .nav-icons .a, .nav-icons .a:visited {
+.nav-icons a,
+.nav-icons a:visited,
+.nav-icons .a,
+.nav-icons .a:visited {
   transition: 0.3s ease-in-out;
 }
 
-.nav-icons .a:hover, .nav-icons a:hover {
-  color: #8C544F;
+.nav-icons .a:hover,
+.nav-icons a:hover {
+  color: #8c544f;
 }
-
-
 
 /****************/
 /***** MAIN *****/
@@ -238,7 +247,8 @@ nav a:hover {
   grid-area: skills;
 }
 
-.item-about-skills h3, .item-about-hobbies h3  {
+.item-about-skills h3,
+.item-about-hobbies h3 {
   text-align: center;
   font-size: 26px;
   margin: 50px auto 0;
@@ -251,25 +261,29 @@ nav a:hover {
   border: 1px solid #444649;
 }
 
-.fab, .fas {
+.fab,
+.fas {
   display: inline-block;
   font-size: 42px;
   transition: 0.3s ease-in-out;
 }
 
-.hobbies-icons .fas, .hobbies-icons .fab {
-  color: #BFB584;
+.hobbies-icons .fas,
+.hobbies-icons .fab {
+  color: #bfb584;
 }
 
 .skill-icons .fab {
-  color: #73A2BF;
+  color: #73a2bf;
 }
 
-.fab:hover, .fas:hover {
-  color: #8C544F;
+.fab:hover,
+.fas:hover {
+  color: #8c544f;
 }
 
-.skill-icons, .hobbies-icons {
+.skill-icons,
+.hobbies-icons {
   display: flex;
   margin: 30px auto 0;
   width: 66.66%;
@@ -290,23 +304,39 @@ nav a:hover {
   text-decoration: none;
   text-align: center;
   color: black;
-  background-image: linear-gradient(to bottom right, rgba(191, 181, 132, 0.4),  rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4), rgba(191, 181, 132, 0.4));
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(191, 181, 132, 0.4),
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.4),
+    rgba(191, 181, 132, 0.4)
+  );
   width: 50%;
   max-width: 225px;
   border-radius: 5px;
 }
 
 #about a:hover {
-  background-image: linear-gradient(to top left, rgba(140, 84, 79, 0.5),  rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(140, 84, 79, 0.5));
+  background-image: linear-gradient(
+    to top left,
+    rgba(140, 84, 79, 0.5),
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5),
+    rgba(140, 84, 79, 0.5)
+  );
   /* TODO: Add transition to cv button */
 }
-
 
 /***** PROJECTS *****/
 
 .item-projects {
   grid-area: projects;
-  background: linear-gradient(to right, rgba(255, 255, 255), rgba(255, 255, 255), rgba(115, 162, 191));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255),
+    rgba(255, 255, 255),
+    rgba(115, 162, 191)
+  );
   margin-top: 25px;
   padding: 25px 0 75px;
 }
@@ -314,12 +344,13 @@ nav a:hover {
 .project-grid {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 25% 25% 25% 25%;
   grid-template-areas:
     "project1"
     "project2"
     "project3"
-    "project4";
+    "project4"
+    "project5"
+    "project6";
   margin-top: 75px;
 }
 
@@ -339,6 +370,14 @@ nav a:hover {
   grid-area: project4;
 }
 
+#project5 {
+  grid-area: project5;
+}
+
+#project6 {
+  grid-area: project6;
+}
+
 .project-container {
   position: relative;
   width: 100%;
@@ -350,7 +389,8 @@ nav a:hover {
   height: auto;
 }
 
-.project-overlay-a, .project-overlay-b {
+.project-overlay-a,
+.project-overlay-b {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -359,15 +399,17 @@ nav a:hover {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
-.project-overlay-a, .project-overlay-b {
-  background: rgba(255, 255, 255, .85);
-  border: 1.5px solid #8C544F;
+.project-overlay-a,
+.project-overlay-b {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1.5px solid #8c544f;
 }
 
-.project-container:hover .project-overlay-a, .project-container:hover .project-overlay-b {
+.project-container:hover .project-overlay-a,
+.project-container:hover .project-overlay-b {
   opacity: 1;
 }
 
@@ -383,29 +425,27 @@ nav a:hover {
 }
 
 .project-text h5 {
-  font-size: 26px;
-  color: #1B242F;
+  font-size: 32px;
+  color: #8c544f;
   font-weight: 500;
   margin: 0 0 15% 0;
 }
 
 .project-text a {
-  font-size: 18px;
+  font-size: 24px;
   text-decoration: none;
-  color: #1B242F;
+  color: #1b242f;
   text-transform: uppercase;
-  border: 1.5px solid #8C544F;
+  border: 1.5px solid #8c544f;
+  margin: 0 12px;
   padding: 10px 50px;
   transition: 0.3s ease-in-out;
 }
 
 .project-text a:hover {
   color: white;
-  background-color: #8C544F;
+  background-color: #8c544f;
 }
-
-
-
 
 /***** BLOG *****/
 
@@ -432,7 +472,7 @@ nav a:hover {
 
 .blog-copy h4 {
   letter-spacing: 1.05px;
-  font-family: 'Raleway-bold', sans-serif;
+  font-family: "Raleway-bold", sans-serif;
   color: #616161;
   font-weight: 540;
   margin: 15px 0 0;
@@ -449,7 +489,7 @@ time {
 .blog-underline {
   display: block;
   width: 60px;
-  border: 2px solid #73A2BF;
+  border: 2px solid #73a2bf;
 }
 
 .blog-copy p {
@@ -457,12 +497,16 @@ time {
   line-height: 1.4;
 }
 
-
 /***** CONTACT *****/
 
 .item-contact {
   grid-area: contact;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(115, 162, 191, 0.5));
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5),
+    rgba(115, 162, 191, 0.5)
+  );
   margin: 75px 0 0;
   padding: 25px 0 75px;
 }
@@ -485,7 +529,8 @@ form {
   width: 90%;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 10px 12.5px;
   margin: 1.5px 0;
@@ -494,7 +539,8 @@ input, textarea {
   font-size: 13px;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: rgba(140, 84, 79, 0.5);
 }
 
@@ -516,12 +562,24 @@ textarea {
   margin: 6px 0 0;
   border: none;
   cursor: pointer;
-  background: linear-gradient(to bottom right, rgba(191, 181, 132, 0.4),  rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4), rgba(191, 181, 132, 0.4));
+  background: linear-gradient(
+    to bottom right,
+    rgba(191, 181, 132, 0.4),
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.4),
+    rgba(191, 181, 132, 0.4)
+  );
   border-radius: 5px;
 }
 
 .submit:hover {
-  background: linear-gradient(to top left, rgba(140, 84, 79, 0.5),  rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(140, 84, 79, 0.5));
+  background: linear-gradient(
+    to top left,
+    rgba(140, 84, 79, 0.5),
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5),
+    rgba(140, 84, 79, 0.5)
+  );
   /* TODO: Add transition to submit button */
 }
 
@@ -533,21 +591,23 @@ textarea {
   max-width: 450px;
 }
 
-.contact-icons a, .contact-icons a:visited, .contact-icons .a, .contact-icons .a:visited {
+.contact-icons a,
+.contact-icons a:visited,
+.contact-icons .a,
+.contact-icons .a:visited {
   font-size: 25.5px;
-  color: #73A2BF;
+  color: #73a2bf;
   transition: 0.3s ease-in-out;
 }
 
-.contact-icons .a:hover, .contact-icons a:hover {
-  color: #8C544F;
+.contact-icons .a:hover,
+.contact-icons a:hover {
+  color: #8c544f;
 }
-
 
 /******************/
 /***** FOOTER *****/
 /******************/
-
 
 .item-footer {
   grid-area: footer;
@@ -555,7 +615,13 @@ textarea {
   justify-content: center;
   align-items: center;
   border-top: 1px solid #444649;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4), rgba(191, 181, 132, 0.4)), url("../src/img/trees.svg");
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4),
+      rgba(191, 181, 132, 0.4)
+    ),
+    url("../src/img/trees.svg");
   background-repeat: repeat-x;
   background-position: center bottom;
   background-size: 55px;
@@ -570,8 +636,8 @@ textarea {
   padding: 5px;
   font-size: 16px;
   width: 24px;
-  border: 2px solid #8C544F;
-  background-color: #8C544F;
+  border: 2px solid #8c544f;
+  background-color: #8c544f;
   color: white;
 }
 
@@ -585,21 +651,17 @@ textarea {
   letter-spacing: 1.2px;
 }
 
-
 /*************************/
 /***** MEDIA QUERIES *****/
 /*************************/
 
-
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
   /***** BODY *****/
 
   h2 {
     font-size: 40px;
   }
-
 
   /***** HEADER *****/
 
@@ -617,7 +679,6 @@ textarea {
     justify-content: center;
   }
 
-
   /***** ABOUT *****/
 
   .item-about-intro {
@@ -625,22 +686,23 @@ textarea {
     margin: 50px 11% auto 5%;
   }
 
-
   /***** PROJECTS *****/
 
   .project-grid {
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
     grid-template-areas:
       "project1 project2"
-      "project3 project4";
+      "project3 project4"
+      "project5 project6";
   }
 
   .item-projects {
     padding-bottom: 125px;
   }
 
-  .project-image, .project-overlay-a, .project-overlay-b {
+  .project-image,
+  .project-overlay-a,
+  .project-overlay-b {
     height: 300px;
   }
 
@@ -652,7 +714,8 @@ textarea {
     margin: auto;
   }
 
-  .blogs, .form-field {
+  .blogs,
+  .form-field {
     width: 500px;
   }
 
@@ -663,45 +726,37 @@ textarea {
   .blog-copy h4 {
     font-size: 16.5px;
   }
-  
+
   .publish-date {
     margin-top: 5px;
   }
-  
+
   time {
     font-size: 10px;
   }
-  
+
   .blog-underline {
     display: block;
     width: 60px;
-    border: 2px solid #73A2BF;
+    border: 2px solid #73a2bf;
   }
-  
+
   .blog-copy p {
     font-size: 13px;
   }
 
-
-
   /***** FOOTER *****/
-  
+
   .fa-angle-double-up {
     font-size: 18px;
     width: 26px;
     padding-left: 5.5px;
     padding-right: 6px;
   }
-
-
-} 
-
-
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
-
   /***** NAV BAR *****/
 
   .nav-flex {
@@ -716,27 +771,23 @@ textarea {
     z-index: 1;
     width: 100%;
   }
-  
+
   .nav-icons {
     display: flex;
     flex-direction: column;
     background: rgba(255, 255, 255, 0.85);
     padding: 20px 0;
   }
-  
+
   .nav-contacts a {
-    color: #73A2BF;
+    color: #73a2bf;
     font-size: 22px;
     padding: 12.5px 15px;
   }
-
 }
-
-
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
   /***** HEADER *****/
 
   .header-img-div {
@@ -780,10 +831,10 @@ textarea {
     margin-bottom: 0;
   }
 
-
   /***** NAV BAR *****/
 
-  .nav-contacts { /* moves socials into navbar */
+  .nav-contacts {
+    /* moves socials into navbar */
     z-index: 1;
     position: absolute;
     right: 0;
@@ -791,14 +842,14 @@ textarea {
     width: 300px;
     background: none;
   }
-  
+
   .nav-icons {
     flex-direction: row;
     padding: 0;
     padding-right: 25.5px;
     position: fixed;
   }
-  
+
   .fa-icon {
     font-size: 19px;
     padding: 15px 16.5px;
@@ -822,7 +873,8 @@ textarea {
     margin-right: 0;
   }
 
-  .item-about-skills h3, .item-about-hobbies h3  {
+  .item-about-skills h3,
+  .item-about-hobbies h3 {
     margin-top: 60px;
   }
 
@@ -840,13 +892,24 @@ textarea {
     width: 37.5%;
     padding: 12.5px;
     font-size: 14px;
-    background-image: linear-gradient(to top left, rgba(191, 181, 132, 0.4),  rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(191, 181, 132, 0.4));
+    background-image: linear-gradient(
+      to top left,
+      rgba(191, 181, 132, 0.4),
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5),
+      rgba(191, 181, 132, 0.4)
+    );
   }
 
   #about a:hover {
-    background: linear-gradient(to top left, rgba(140, 84, 79, 0.5),  rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(140, 84, 79, 0.5));
+    background: linear-gradient(
+      to top left,
+      rgba(140, 84, 79, 0.5),
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5),
+      rgba(140, 84, 79, 0.5)
+    );
   }
-
 
   /***** BLOGS *****/
 
@@ -881,13 +944,21 @@ textarea {
     grid-area: blog4;
   }
 
+  /***** BLOGS *****/
+
+  .project-text h5 {
+    font-size: 40px;
+  }
+
+  .project-text a {
+    font-size: 32px;
+    margin: 0 16px;
+    padding: 15px 60px;
+  }
 }
-
-
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
   /***** HEADER *****/
 
   .header-img-div {
@@ -903,14 +974,12 @@ textarea {
     height: 216.25px;
   }
 
-
   /***** BLOGS *****/
 
   .blog-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas:
-      "blog1 blog2 blog3 blog4";
+    grid-template-areas: "blog1 blog2 blog3 blog4";
     margin-left: 0;
   }
 
@@ -924,8 +993,8 @@ textarea {
     width: 600px;
   }
 
-  input, textarea {
+  input,
+  textarea {
     margin: 2px 0;
   }
-
 }
