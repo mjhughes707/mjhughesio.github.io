@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "985ebff642902aa95b2b35a74e27f80b",
+    "revision": "4557f24dfc9d5b89675dc51aade7617d",
     "url": "/index.html"
   },
   {
-    "revision": "cb245c5e6710ba31b249",
-    "url": "/static/css/main.37552912.chunk.css"
+    "revision": "b391cbe2407c52544800",
+    "url": "/static/css/main.aa5fcd9b.chunk.css"
   },
   {
-    "revision": "e633a8a6ddb65593116b",
-    "url": "/static/js/2.16e2d3e2.chunk.js"
+    "revision": "2812e162e664fe1ad8e0",
+    "url": "/static/js/2.23c99049.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/static/js/2.16e2d3e2.chunk.js.LICENSE"
+    "url": "/static/js/2.23c99049.chunk.js.LICENSE"
   },
   {
-    "revision": "cb245c5e6710ba31b249",
-    "url": "/static/js/main.1fa4d165.chunk.js"
+    "revision": "b391cbe2407c52544800",
+    "url": "/static/js/main.1d45fdad.chunk.js"
   },
   {
     "revision": "48f2e0fdf62bcb26a288",
@@ -36,10 +36,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/foodcartcity.506c5f0d.png"
   },
   {
-    "revision": "f63d1ce1c06347517897450db64f1e51",
-    "url": "/static/media/hptrivia.f63d1ce1.png"
-  },
-  {
     "revision": "dd2712201a0cecdbdf20d72aa407d105",
     "url": "/static/media/make-a-meowm.dd271220.png"
   },
@@ -48,8 +44,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/matt-ngorongoro-sq.f53677d8.png"
   },
   {
+    "revision": "f8ed0e8b2426d924c2a7d07bbe75a600",
+    "url": "/static/media/pod-guild.f8ed0e8b.png"
+  },
+  {
     "revision": "dd370128e37e2ee706ab86fd15e694a9",
     "url": "/static/media/ppow.dd370128.png"
+  },
+  {
+    "revision": "38d9ca70ac2129227b3603cbc10407c2",
+    "url": "/static/media/states-game.38d9ca70.png"
+  },
+  {
+    "revision": "596f6446e67ce20ce0aae45e2ac960fe",
+    "url": "/static/media/stocker.596f6446.png"
   },
   {
     "revision": "7d7bcb140822f501db12196fc3c39afa",
