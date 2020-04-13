@@ -22,7 +22,7 @@ function Projects() {
           overlay="project-overlay-a"
           name="Pod Guild"
           link="https://matthewjhughes.com/"
-          code="https://github.com/mjhughesio/podguild"
+          code="https://github.com/mjhughes707/podguild"
         />
         <Project
           id="project2"
@@ -31,7 +31,7 @@ function Projects() {
           overlay="project-overlay-b"
           name="Food Cart City"
           link="https://foodcartcity.pythonanywhere.com"
-          code="https://github.com/mjhughesio/foodcartcity"
+          code="https://github.com/mjhughes707/foodcartcity"
         />
         <Project
           id="project3"
@@ -40,7 +40,7 @@ function Projects() {
           overlay="project-overlay-a"
           name="States Game"
           link="https://matthewjhughes.com/states-game"
-          code="https://github.com/mjhughesio/states-game"
+          code="https://github.com/mjhughes707/states-game"
         />
         <Project
           id="project4"
@@ -49,7 +49,7 @@ function Projects() {
           overlay="project-overlay-b"
           name="Stocker"
           link="https://matthewjhughes.com/stocker"
-          code="https://github.com/mjhughesio/stocker"
+          code="https://github.com/mjhughes707/stocker"
         />
         <Project
           id="project5"
@@ -58,7 +58,7 @@ function Projects() {
           overlay="project-overlay-a"
           name="Make-A-Meowm"
           link="https://matthewjhughes.com/make-a-meowm"
-          code="https://github.com/mjhughesio/make-a-meowm"
+          code="https://github.com/mjhughes707/make-a-meowm"
         />
         <Project
           id="project6"
@@ -67,7 +67,7 @@ function Projects() {
           overlay="project-overlay-b"
           name="Bouncing Cube"
           link="https://matthewjhughes.com/bouncing-cube"
-          code="https://github.com/mjhughesio/bouncing-cube"
+          code="https://github.com/mjhughes707/bouncing-cube"
         />
       </div>
     </div>
