@@ -19,7 +19,7 @@ function Blogs() {
     <div id="blog" className="item-blog">
       <h2>BLOG</h2>
       <span className="h2-underline"></span>
-      <div className="blog-grid">
+      <div className="blog-flex">
         {blogs.map((blog, idx) => {
           const displayDate = new Date(blog.pubDate);
           return (
@@ -32,8 +32,8 @@ function Blogs() {
               datetime={blog.pubDate}
               date={displayDate.toDateString()}
               preview={`${blog.description
-                .replace(/<[a-zA-Z\/][^>]*>/g, "")
-                .slice(0, 50)}...`}
+                .replace(/<[a-zA-Z/][^>]*>/g, "")
+                .slice(0, 42)}...`}
             />
           );
         })}

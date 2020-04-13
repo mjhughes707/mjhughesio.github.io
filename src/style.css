@@ -4,6 +4,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *,
 *:before,
@@ -455,10 +456,18 @@ nav a:hover {
   margin-left: 10px;
   margin-right: 10px;
   padding-top: 25px;
+  width: 100%;
+}
+
+.blog-flex {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .blogs {
   margin-top: 50px;
+  max-width: 270px;
 }
 
 .blogs a {
@@ -714,11 +723,6 @@ textarea {
     margin: auto;
   }
 
-  .blogs,
-  .form-field {
-    width: 500px;
-  }
-
   .blog-image {
     max-height: 200px;
   }
@@ -743,6 +747,12 @@ textarea {
 
   .blog-copy p {
     font-size: 13px;
+  }
+
+  /***** CONTACT *****/
+
+  .form-field {
+    width: 500px;
   }
 
   /***** FOOTER *****/
@@ -913,39 +923,6 @@ textarea {
 
   /***** BLOGS *****/
 
-  .blog-grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-      "blog1 blog2"
-      "blog3 blog4";
-    grid-column-gap: 25px;
-    margin-left: -6.75px;
-  }
-
-  .blogs {
-    width: 400px;
-  }
-
-  #blog1 {
-    grid-area: blog1;
-  }
-
-  #blog2 {
-    grid-area: blog2;
-  }
-
-  #blog3 {
-    grid-area: blog3;
-  }
-
-  #blog4 {
-    grid-area: blog4;
-  }
-
-  /***** BLOGS *****/
-
   .project-text h5 {
     font-size: 40px;
   }
@@ -972,19 +949,6 @@ textarea {
 
   header img {
     height: 216.25px;
-  }
-
-  /***** BLOGS *****/
-
-  .blog-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "blog1 blog2 blog3 blog4";
-    margin-left: 0;
-  }
-
-  .blogs {
-    width: 270px;
   }
 
   /***** CONTACT *****/
