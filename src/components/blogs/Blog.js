@@ -3,7 +3,7 @@ import React from "react";
 function Blog(props) {
   return (
     <div id={props.id} className="blogs">
-      <a href={props.url}>
+      <a href={props.url} target="_blank" rel="noopener noreferrer">
         <img src={props.image} alt={props.alt} className="blog-image" />
         <div className="blog-copy">
           <h4>{props.title}</h4>
