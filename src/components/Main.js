@@ -1,9 +1,8 @@
-import React from "react"
-
-import About from "./about/About"
-import Projects from "./projects/Projects"
-import Blogs from "./blogs/Blogs"
-import Contact from "./contact/Contact"
+import React from "react";
+import About from "./about/About";
+import Projects from "./projects/Projects";
+import Blogs from "./blogs/Blogs";
+import Contact from "./contact/Contact";
 
 function Main() {
   return (
@@ -16,8 +15,7 @@ function Main() {
         <i className="fas fa-angle-double-up"></i>
       </a>
     </main>
-  )
+  );
 }
 
-
-export default Main
+export default Main;

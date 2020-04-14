@@ -1,9 +1,7 @@
-import React from "react"
-
-import NavFlex from "./nav/NavFlex"
-import NavContacts from "./nav/NavContacts"
-
-import Ngorongoro from "../img/matt-ngorongoro-sq.png"
+import React from "react";
+import NavFlex from "./nav/NavFlex";
+import NavContacts from "./nav/NavContacts";
+import Ngorongoro from "../img/matt-ngorongoro-sq.png";
 
 function Header() {
   return (
@@ -17,11 +15,10 @@ function Header() {
           alt="Matt at the Ngorongoro Crater in Tanzania"
           className="header-image"
         />
-        <h1 className="header-title">Web Developer</h1>
+        <h1 className="header-title">Software Engineer</h1>
       </div>
     </header>
-  )
+  );
 }
 
-
-export default Header
+export default Header;

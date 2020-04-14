@@ -1,10 +1,10 @@
-import React from "react"
+import React from "react";
 
-import AboutHeader from "./AboutHeader"
-import AboutIntro from "./AboutIntro"
-import AboutSkills from "./AboutSkills"
-import AboutHobbies from "./AboutHobbies"
-import Resume from "./Resume"
+import AboutHeader from "./AboutHeader";
+import AboutIntro from "./AboutIntro";
+import AboutSkills from "./AboutSkills";
+import AboutHobbies from "./AboutHobbies";
+import Resume from "./Resume";
 
 function About() {
   return (
@@ -15,8 +15,7 @@ function About() {
       <AboutSkills />
       <Resume />
     </div>
-  )
+  );
 }
 
-
-export default About
+export default About;
