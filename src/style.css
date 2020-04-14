@@ -773,14 +773,14 @@ textarea {
     justify-content: flex-start;
   }
 
-  .nav-contacts {
+  /* .nav-contacts {
     margin-top: 52px;
     display: flex;
     justify-content: flex-end;
     position: fixed;
     z-index: 1;
     width: 100%;
-  }
+  } */
 
   .nav-icons {
     display: flex;
@@ -829,6 +829,7 @@ textarea {
     align-self: flex-start;
     text-align: left;
     padding-left: 70px;
+    font-size: 32px;
   }
 
   h1 {
